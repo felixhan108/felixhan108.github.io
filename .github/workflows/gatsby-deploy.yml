@@ -3,7 +3,7 @@ name: Gatsby Deploy
 on:
   push:
     branches:
-      - main # 또는 master (귀하의 기본 브랜치명)
+      - master
 
 jobs:
   build:
