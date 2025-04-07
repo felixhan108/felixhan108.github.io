@@ -9,15 +9,16 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Minimal Software Developer`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Felix Han(한성수)`,
+      summary: `I love make minimal software for myself`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `I love make minimal software for myself`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: ``,
+      email: `thepub03@gmail.com`,
     },
   },
   plugins: [
