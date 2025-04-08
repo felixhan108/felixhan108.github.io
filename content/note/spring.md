@@ -1,12 +1,9 @@
 ---
-title: Backend 기초지식
+title: Spring Boot
 version: 0.0.2
 latestUpdate: 2025-04-08
-description: 웹서버를 만들기 위한 기초지식을 정리해 보았습니다.
+description: 개인 프로젝트에서는 flask나 express.js 를 이용하지만 레거시 프로젝트의 소스를 보게 되거나 진행하게 될 경우 SpringBoot를 알아야 합니다. 실무에서의 사용을 위해 속성으로 '애플코딩'의 수업을 듣고 springboot+jpa의 flow를 작성 해 보았습니다.
 ---
-
-> 개인 프로젝트에서는 flask나 express.js 를 이용하지만 레거시 프로젝트의 소스를 보게 되거나 진행하게 될 경우 SpringBoot를 알아야 합니다.
-> 실무에서의 사용을 위해 속성으로 '애플코딩'의 수업을 듣고 springboot+jpa의 flow를 작성 해 보았습니다.
 
 ## 설치방법
 
