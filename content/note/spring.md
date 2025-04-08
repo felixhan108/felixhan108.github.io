@@ -1,9 +1,12 @@
 ---
-title: Sping Boot
-version: "0.0.1"
-latestUpdate: "2025-04-07"
-description: Java SpringBoot로 RESTAPI를 만들어 보며 꼭 필요한 것들을 document 형식으로 볼 수 있도록 작성 하였습니다.
+title: Backend 기초지식
+version: 0.0.2
+latestUpdate: 2025-04-08
+description: 웹서버를 만들기 위한 기초지식을 정리해 보았습니다.
 ---
+
+> 개인 프로젝트에서는 flask나 express.js 를 이용하지만 레거시 프로젝트의 소스를 보게 되거나 진행하게 될 경우 SpringBoot를 알아야 합니다.
+> 실무에서의 사용을 위해 속성으로 '애플코딩'의 수업을 듣고 springboot+jpa의 flow를 작성 해 보았습니다.
 
 ## 설치방법
 
