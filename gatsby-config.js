@@ -55,6 +55,24 @@ module.exports = {
             },
           },
           `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              offsetY: `80`,
+              className: `anchor`,
+              icon: `<svg></svg>`, // optional
+            },
+          },
+          {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: "Table of Contents",
+              tight: false,
+              fromHeading: 1,
+              toHeading: 3,
+              className: "table-of-contents",
+            },
+          },
         ],
       },
     },

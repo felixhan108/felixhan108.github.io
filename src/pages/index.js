@@ -47,7 +47,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { frontmatter: { date: DESC } }
+      sort: { frontmatter: { latestUpdate: DESC } }
       filter: { fileAbsolutePath: { regex: "/content/note/" } }
     ) {
       nodes {
