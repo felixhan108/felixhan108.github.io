@@ -43,12 +43,14 @@ const Bio = () => {
         alt="Profile picture"
       />
       {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong>
-          <span>{author?.summary || null}</span>
+        <>
+          <p>
+            Written by <strong>{author.name}</strong>
+          </p>
+          <p>{author?.summary || null}</p>
           {` `}
           <a href={`mailto:${social?.email || ``}`}>✉️</a>
-        </p>
+        </>
       )}
     </div>
   )
