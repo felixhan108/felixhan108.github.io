@@ -19,6 +19,7 @@ module.exports = {
     social: {
       twitter: ``,
       email: `thepub03@gmail.com`,
+      phone: `+82 10-5489-7482`,
     },
   },
   plugins: [

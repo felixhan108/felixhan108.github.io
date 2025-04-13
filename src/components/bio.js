@@ -20,6 +20,8 @@ const Bio = () => {
           }
           social {
             twitter
+            phone
+            email
           }
         }
       }
@@ -42,16 +44,19 @@ const Bio = () => {
         quality={95}
         alt="Profile picture"
       />
-      {author?.name && (
-        <>
-          <p>
-            Written by <strong>{author.name}</strong>
-          </p>
-          <p>{author?.summary || null}</p>
-          {` `}
-          <a href={`mailto:${social?.email || ``}`}>✉️</a>
-        </>
-      )}
+      <div>
+        {author?.name && (
+          <>
+            <div>
+              <strong>{author.name}</strong> {` `}
+              <a href={`mailto:${social?.email || ``}`}>✉️</a>
+              {` `}
+              {/* <a href={`tel:${social?.phone || ``}`}>📞</a> */}
+            </div>
+            <div>{author?.summary || null}</div>
+          </>
+        )}
+      </div>
     </div>
   )
 }
