@@ -1,8 +1,8 @@
 ---
-title: Backend 기초지식식
+title: Backend 가벼운 가이드라인
 version: "0.0.1"
 latestUpdate: "2025-04-08"
-description: 웹서버를 만들기 위한 기초지식을 정리해 보았습니다.
+description: 웹개발에 필요한 입문 지식을 쌓기 위한 가이드라인을 제시합니다.
 ---
 
 ## 백엔드 JOB 포지션

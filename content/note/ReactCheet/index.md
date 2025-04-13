@@ -1,8 +1,8 @@
 ---
-title: React-CheetBook::자주 사용하는 블록묶음 모음음
+title: React 컴포넌트 Cheet-Sheet
 version: "0.0.1"
 latestUpdate: "2025-04-08"
-description: 리액트에서 자주 사용하는 블록 묶음을 모아봤습니다.
+description: 개발시 자주 사용하는 React Component Block을 모았습니다.
 ---
 
 > https://react.dev/learn 으로 부터 확보한 cheet book
