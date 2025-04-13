@@ -44,9 +44,10 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          Written by <strong>{author.name}</strong>
+          <span>{author?.summary || null}</span>
           {` `}
-          <a href={`mailto:${social?.email || ``}`}>Send me an email</a>
+          <a href={`mailto:${social?.email || ``}`}>✉️</a>
         </p>
       )}
     </div>
