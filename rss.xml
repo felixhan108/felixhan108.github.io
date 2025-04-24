@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[I love make minimal software for myself]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Apr 2025 22:25:49 GMT</lastBuildDate><item><title><![CDATA[Spring Boot 실무 GUIDE]]></title><description><![CDATA[설치방법 http://start.spring.io/ 에 접속해 셋팅이 완료된 프로젝트를 얻는다. Gradle, Spring Boot 3.x, Java17이나 21버전으로 다운로드 받는다. 에디터의 SDK 버전을 Java…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/note/spring/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/note/spring/</guid><content:encoded>&lt;h2 id=&quot;설치방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%A4%EC%B9%98%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;설치방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;설치방법&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[I love make minimal software for myself]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 24 Apr 2025 06:54:20 GMT</lastBuildDate><item><title><![CDATA[Shell 한번에 이해하기]]></title><description><![CDATA[🍔Shell 종류 🍟cmd 운영체제 배경 - 
+주요 특징 - 전통적인 Windows 명령 셸 (MS-DOS계열)
+주요 명령어 스타일 - ,,, 🍟PowerShell 운영체제 배경 -  -> ,(최근지원)
+주요 특징 - 객체 기반 셸, .NET…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/note/shell/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/note/shell/</guid><content:encoded>&lt;h1 id=&quot;shell-종류&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#shell-%EC%A2%85%EB%A5%98&quot; aria-label=&quot;shell 종류 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;🍔Shell 종류&lt;/h1&gt;
+&lt;h2 id=&quot;cmd&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cmd&quot; aria-label=&quot;cmd permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;🍟cmd&lt;/h2&gt;
+&lt;p&gt;운영체제 배경 - &lt;code class=&quot;language-text&quot;&gt;Windows&lt;/code&gt;
+주요 특징 - 전통적인 Windows 명령 셸 (MS-DOS계열)
+주요 명령어 스타일 - &lt;code class=&quot;language-text&quot;&gt;dir&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;echo&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;cd&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;copy&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;powershell&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#powershell&quot; aria-label=&quot;powershell permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;🍟PowerShell&lt;/h2&gt;
+&lt;p&gt;운영체제 배경 - &lt;code class=&quot;language-text&quot;&gt;Windows&lt;/code&gt; -&gt; &lt;code class=&quot;language-text&quot;&gt;macOS&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;Linux&lt;/code&gt;(최근지원)
+주요 특징 - 객체 기반 셸, .NET 통합
+주요 명령어 스타일 - &lt;code class=&quot;language-text&quot;&gt;$env:PATH&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;bash&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bash&quot; aria-label=&quot;bash permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;🍟bash&lt;/h2&gt;
+&lt;p&gt;운영체제 배경 - &lt;code class=&quot;language-text&quot;&gt;Linux/Unix&lt;/code&gt;
+주요 특징 - 가장 널리 사용되는 셸
+주요 명령어 스타일 - &lt;code class=&quot;language-text&quot;&gt;ls&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;cd&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;echo&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;export&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;zsh&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#zsh&quot; aria-label=&quot;zsh permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;🍟zsh&lt;/h2&gt;
+&lt;p&gt;운영체제 배경 - &lt;code class=&quot;language-text&quot;&gt;Linux/macOS&lt;/code&gt;
+주요 특징 - bash 기반 확장형 셸
+주요 명령어 스타일 - bash와 거의 동일&lt;/p&gt;
+&lt;h2 id=&quot;sh-bourne-shell&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#sh-bourne-shell&quot; aria-label=&quot;sh bourne shell permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;🍟sh (Bourne Shell)&lt;/h2&gt;
+&lt;p&gt;운영체제 배경 - &lt;code class=&quot;language-text&quot;&gt;Unix&lt;/code&gt;
+주요 특징 - 아주 기본적인 셸 (표준 POSIX), 어디서나 돌아가는 최소 셸
+주요 명령어 스타일 - &lt;code class=&quot;language-text&quot;&gt;echo&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;cd&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;export&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&quot;상황별-추천&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%83%81%ED%99%A9%EB%B3%84-%EC%B6%94%EC%B2%9C&quot; aria-label=&quot;상황별 추천 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;🍔상황별 추천&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;상황&lt;/th&gt;
+&lt;th&gt;추천 셸&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Windows에서 간단한 명령만 쓸 때&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;cmd&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Windows에서 스크립트 자동화할 때&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;PowerShell&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;리눅스 서버를 주로 다룰 때&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;bash&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;터미널을 편하게, 세련되게 쓰고 싶을 때&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;zsh&lt;/code&gt; + &lt;code class=&quot;language-text&quot;&gt;Oh My Zsh&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;POSIX 표준 스크립트가 필요할 때&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;sh&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&quot;참고-명령어-비교&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0-%EB%AA%85%EB%A0%B9%EC%96%B4-%EB%B9%84%EA%B5%90&quot; aria-label=&quot;참고 명령어 비교 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;🍔참고 명령어 비교&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;작업&lt;/th&gt;
+&lt;th&gt;cmd&lt;/th&gt;
+&lt;th&gt;PowerShell&lt;/th&gt;
+&lt;th&gt;bash/zsh&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;파일 리스트&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;dir&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;Get-ChildItem&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;ls&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;환경변수&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;set&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;$env:PATH&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;echo $PATH&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;현재 경로&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;cd&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;Get-Location&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;pwd&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;파일 복사&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;copy&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;Copy-Item&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;cp&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;변수 선언&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;set x=1&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;$x = 1&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;x=1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content:encoded></item><item><title><![CDATA[Spring Boot 실무 GUIDE]]></title><description><![CDATA[설치방법 http://start.spring.io/ 에 접속해 셋팅이 완료된 프로젝트를 얻는다. Gradle, Spring Boot 3.x, Java17이나 21버전으로 다운로드 받는다. 에디터의 SDK 버전을 Java…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/note/spring/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/note/spring/</guid><content:encoded>&lt;h2 id=&quot;설치방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%A4%EC%B9%98%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;설치방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;설치방법&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;http://start.spring.io/&quot;&gt;http://start.spring.io/&lt;/a&gt; 에 접속해 셋팅이 완료된 프로젝트를 얻는다.&lt;/li&gt;
 &lt;li&gt;Gradle, Spring Boot 3.x, Java17이나 21버전으로 다운로드 받는다.&lt;/li&gt;
@@ -1989,181 +2086,7 @@ DELETE /users/:id&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&quot;통상적인-구조&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%86%B5%EC%83%81%EC%A0%81%EC%9D%B8-%EA%B5%AC%EC%A1%B0&quot; aria-label=&quot;통상적인 구조 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;통상적인 구조&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Jenkins || Github Actions -&gt; AWS CodeDeploy&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[디자인/프론트엔드를 위한 UI개발 DesignSystem Guide]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/note/DesignSystem/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/note/DesignSystem/</guid><content:encoded>&lt;blockquote&gt;
-&lt;p&gt;재사용 가능한 컴포넌트 설계와 상태 관리는 많은 개발자들이 어려워 하는 부분입니다.
-이는 복잡한 주제이며, 경험과 실습을 통해 점진적으로 익혀나가는 것이 일반적입니다.
-지속적인 학습과 실제 프로젝트에 적용해보는 과정을 통해 점차 개선될 수 있습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;프로세스&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4&quot; aria-label=&quot;프로세스 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;프로세스&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;최초 컨셉의 재활용 컴포넌트를 업로드 한다.&lt;/li&gt;
-&lt;li&gt;각종 테스트를 적용한다.&lt;/li&gt;
-&lt;li&gt;새로운 적용을 해본다.&lt;/li&gt;
-&lt;li&gt;타임라인을 공유한다.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;기본구성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EB%B3%B8%EA%B5%AC%EC%84%B1&quot; aria-label=&quot;기본구성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;기본구성&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;react component를 예시로 작성 됨.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;todo&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#todo&quot; aria-label=&quot;todo permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Todo&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Component Function&lt;/li&gt;
-&lt;li&gt;Styling&lt;/li&gt;
-&lt;li&gt;Variant&lt;/li&gt;
-&lt;li&gt;State&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&quot;component-function&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#component-function&quot; aria-label=&quot;component function permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Component Function&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;필요한 컴포넌트를 제작합니다.
-외부에서도 사용할 수 있도록 react의 고유 기능인 &lt;code class=&quot;language-text&quot;&gt;{chidren}&lt;/code&gt;을 사용하여 컴포넌트 내부에 새로운 Markup을 넣어 재활용 가능하게 사용하는 방법입니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&quot;styling&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#styling&quot; aria-label=&quot;styling permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Styling&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;button에 css를 적용합니다.
-css를 적용하는 방법은 크게 &lt;code class=&quot;language-text&quot;&gt;tailwind.css&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;CSS Module&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;CSS-in-JS&lt;/code&gt; 방식이 있습니다.
-사이트를 새로 구축해 &lt;code class=&quot;language-text&quot;&gt;DesignSystem&lt;/code&gt;을 만드는 경우 러닝커브가 낮은 순으로 채용 되는 경우가 많습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;예를들어 &lt;code class=&quot;language-text&quot;&gt;퍼블리셔&lt;/code&gt;와 분업 하여 작업하는 경우 기존 CSS와 사용법이 가장 비슷한 &lt;code class=&quot;language-text&quot;&gt;CSS Module&lt;/code&gt; 을 이용합니다.&lt;/li&gt;
-&lt;li&gt;tailwind와 react 환경의 이해도 가 있는 경우 tailwind를 이용해 컴포넌트 단위로 분업 하여 작업할 수 있습니다.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;퍼블리셔&lt;/code&gt; 포지션이 따로 없으며 &lt;code class=&quot;language-text&quot;&gt;프론트엔드-쥬니어&lt;/code&gt; 가 있는 경우 조금 더 JS 친화적인 CSS-in-JS방식을 선택하여 사용할 수 있습니다. (단, 기존 방식 보다는 러닝 커브와 정교한 코드 컨벤션이 없다면 복잡도가 증가할 가능성이 있습니다.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;tailwind&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tailwind&quot; aria-label=&quot;tailwind permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Tailwind&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;font-bold py-2 px-4 rounded&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 id=&quot;react-css-module&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#react-css-module&quot; aria-label=&quot;react css module permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;React CSS Module&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; styles &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./Button.module.css&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;styles&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;button&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 id=&quot;styled-component&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#styled-component&quot; aria-label=&quot;styled component permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Styled-Component&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; styled &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;styled-components&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; StyledButton &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; styled&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;button&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-  background-color: #95a5a6;
-  padding: 2px 4px;
-  border-radius: 5px;
-
-  &amp;amp;:hover {
-    background-color: #7f8c8d};
-  }
-&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StyledButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StyledButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&quot;variant&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#variant&quot; aria-label=&quot;variant permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Variant&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;디자이너가 주는 다양한 버튼의 디자인을 적용하는 방법입니다.
-예제로는 primary, outline이 들어간다고 가정 하였습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&quot;tailwind-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tailwind-1&quot; aria-label=&quot;tailwind 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Tailwind&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ButtonProps&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  children&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ReactNode
-  variant&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; variant &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ButtonProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt;
-      &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-			font-bold py-2 px-4 rounded
-			&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;font-bold py-2 px-4 rounded&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-			&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;
-        variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt;
-          &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;bg-transparent border border-blue-500 text-blue-500&quot;&lt;/span&gt;
-          &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;
-      &lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-		&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 id=&quot;react-css-module-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#react-css-module-1&quot; aria-label=&quot;react css module 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;React CSS Module&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; styles &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./Button.module.css&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ButtonProps&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  children&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ReactNode
-  variant&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; variant &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ButtonProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt;
-      &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-			&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;styles&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;button&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt; 
-			&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; styles&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;primary &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-			&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; styles&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;outline &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-		&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 id=&quot;styled-component-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#styled-component-1&quot; aria-label=&quot;styled component 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Styled-Component&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; styled &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;styled-components&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ButtonProps&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  children&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ReactNode
-  variant&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; StyledButton &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; styled&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; variant&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;
-    props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
-    css&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-      background-color: #95a5a6;
-      padding: 2px 4px;
-      border-radius: 5px;
-
-      &amp;amp;:hover {
-        background-color: #7f8c8d;
-      }
-    &lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;
-    props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
-    css&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-      background-color: transparent;
-      color: #3498db;
-      border: 1px solid #3498db;
-      &amp;amp;:hover {
-        background-color: #3498db;
-        color: white;
-      }
-    &lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; variant &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ButtonProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StyledButton&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;variant&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;variant&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StyledButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&quot;state&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#state&quot; aria-label=&quot;state permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;State&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;컴포넌트에 필요한 &lt;code class=&quot;language-text&quot;&gt;state(상태)&lt;/code&gt;를 적용하는것은 &lt;code class=&quot;language-text&quot;&gt;props&lt;/code&gt;를 더 만들어서 받아 주게 됩니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&quot;tailwind-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tailwind-2&quot; aria-label=&quot;tailwind 2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Tailwind&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; variant&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; disabled &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt;
-      &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-				font-bold py-2 px-4 rounded
-				&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;
-          variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt;
-            &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;bg-transparent border border-blue-500 text-blue-500&quot;&lt;/span&gt;
-            &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;bg-blue-500 text-white&quot;&lt;/span&gt;
-        &lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
-			&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
-      &lt;span class=&quot;token attr-name&quot;&gt;disabled&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;disabled&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Fullstack 개발을 위한 Next.js 실무 GUIDE]]></title><description><![CDATA[Routing 폴더 밑에 파일 제작 하는 방식에 대한 설명과 비지니스로직 입니다.
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Fullstack 개발을 위한 Next.js 실무 GUIDE]]></title><description><![CDATA[Routing 폴더 밑에 파일 제작 하는 방식에 대한 설명과 비지니스로직 입니다.
  와  또는  와  등의 설명을 합니다. 🥯 Defining Routes 웹 화면의 route를 next.js에서 만드는 방법을 설명 합니다. 🧁 app…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/note/Next.js/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/note/Next.js/</guid><content:encoded>&lt;h1 id=&quot;routing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#routing&quot; aria-label=&quot;routing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Routing&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;app&lt;/code&gt;폴더 밑에 파일 제작 하는 방식에 대한 설명과 비지니스로직 입니다.
@@ -2361,7 +2284,181 @@ react-query를 이용하는것과의 차이점을 알아 보겠습니다.&lt;/p&
 &lt;h1 id=&quot;optiizations&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#optiizations&quot; aria-label=&quot;optiizations permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Optiizations&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;최적화에 대해서 알아봅니다. Image, Fonts, Script 등을 어떻게 처리하면 되는지 알아 봅니다.&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[React 컴포넌트 Cheet-Sheet]]></title><description><![CDATA[https://react.dev/learn 으로 부터 확보한 cheet book Displaying data Conditional rendering Other works or Rendering List or Responding to events…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/note/ReactCheet/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/note/ReactCheet/</guid><content:encoded>&lt;blockquote&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[디자인/프론트엔드를 위한 UI개발 DesignSystem Guide]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/note/DesignSystem/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/note/DesignSystem/</guid><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;재사용 가능한 컴포넌트 설계와 상태 관리는 많은 개발자들이 어려워 하는 부분입니다.
+이는 복잡한 주제이며, 경험과 실습을 통해 점진적으로 익혀나가는 것이 일반적입니다.
+지속적인 학습과 실제 프로젝트에 적용해보는 과정을 통해 점차 개선될 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;프로세스&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4&quot; aria-label=&quot;프로세스 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;프로세스&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;최초 컨셉의 재활용 컴포넌트를 업로드 한다.&lt;/li&gt;
+&lt;li&gt;각종 테스트를 적용한다.&lt;/li&gt;
+&lt;li&gt;새로운 적용을 해본다.&lt;/li&gt;
+&lt;li&gt;타임라인을 공유한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;기본구성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EB%B3%B8%EA%B5%AC%EC%84%B1&quot; aria-label=&quot;기본구성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;기본구성&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;react component를 예시로 작성 됨.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;todo&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#todo&quot; aria-label=&quot;todo permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Todo&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Component Function&lt;/li&gt;
+&lt;li&gt;Styling&lt;/li&gt;
+&lt;li&gt;Variant&lt;/li&gt;
+&lt;li&gt;State&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;component-function&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#component-function&quot; aria-label=&quot;component function permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Component Function&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;필요한 컴포넌트를 제작합니다.
+외부에서도 사용할 수 있도록 react의 고유 기능인 &lt;code class=&quot;language-text&quot;&gt;{chidren}&lt;/code&gt;을 사용하여 컴포넌트 내부에 새로운 Markup을 넣어 재활용 가능하게 사용하는 방법입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;styling&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#styling&quot; aria-label=&quot;styling permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Styling&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;button에 css를 적용합니다.
+css를 적용하는 방법은 크게 &lt;code class=&quot;language-text&quot;&gt;tailwind.css&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;CSS Module&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;CSS-in-JS&lt;/code&gt; 방식이 있습니다.
+사이트를 새로 구축해 &lt;code class=&quot;language-text&quot;&gt;DesignSystem&lt;/code&gt;을 만드는 경우 러닝커브가 낮은 순으로 채용 되는 경우가 많습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;예를들어 &lt;code class=&quot;language-text&quot;&gt;퍼블리셔&lt;/code&gt;와 분업 하여 작업하는 경우 기존 CSS와 사용법이 가장 비슷한 &lt;code class=&quot;language-text&quot;&gt;CSS Module&lt;/code&gt; 을 이용합니다.&lt;/li&gt;
+&lt;li&gt;tailwind와 react 환경의 이해도 가 있는 경우 tailwind를 이용해 컴포넌트 단위로 분업 하여 작업할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;퍼블리셔&lt;/code&gt; 포지션이 따로 없으며 &lt;code class=&quot;language-text&quot;&gt;프론트엔드-쥬니어&lt;/code&gt; 가 있는 경우 조금 더 JS 친화적인 CSS-in-JS방식을 선택하여 사용할 수 있습니다. (단, 기존 방식 보다는 러닝 커브와 정교한 코드 컨벤션이 없다면 복잡도가 증가할 가능성이 있습니다.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;tailwind&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tailwind&quot; aria-label=&quot;tailwind permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Tailwind&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;font-bold py-2 px-4 rounded&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;react-css-module&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#react-css-module&quot; aria-label=&quot;react css module permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;React CSS Module&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; styles &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./Button.module.css&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;styles&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;button&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;styled-component&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#styled-component&quot; aria-label=&quot;styled component permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Styled-Component&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; styled &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;styled-components&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; StyledButton &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; styled&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;button&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+  background-color: #95a5a6;
+  padding: 2px 4px;
+  border-radius: 5px;
+
+  &amp;amp;:hover {
+    background-color: #7f8c8d};
+  }
+&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StyledButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StyledButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;variant&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#variant&quot; aria-label=&quot;variant permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Variant&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;디자이너가 주는 다양한 버튼의 디자인을 적용하는 방법입니다.
+예제로는 primary, outline이 들어간다고 가정 하였습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;tailwind-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tailwind-1&quot; aria-label=&quot;tailwind 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Tailwind&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ButtonProps&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  children&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ReactNode
+  variant&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; variant &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ButtonProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt;
+      &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+			font-bold py-2 px-4 rounded
+			&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;font-bold py-2 px-4 rounded&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+			&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;
+        variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt;
+          &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;bg-transparent border border-blue-500 text-blue-500&quot;&lt;/span&gt;
+          &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;
+      &lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+		&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;react-css-module-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#react-css-module-1&quot; aria-label=&quot;react css module 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;React CSS Module&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; styles &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./Button.module.css&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ButtonProps&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  children&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ReactNode
+  variant&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; variant &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ButtonProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt;
+      &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+			&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;styles&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;button&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt; 
+			&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; styles&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;primary &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+			&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; styles&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;outline &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+		&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;styled-component-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#styled-component-1&quot; aria-label=&quot;styled component 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Styled-Component&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; styled &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;styled-components&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ButtonProps&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  children&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ReactNode
+  variant&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; StyledButton &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; styled&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; variant&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;
+    props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;primary&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+    css&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+      background-color: #95a5a6;
+      padding: 2px 4px;
+      border-radius: 5px;
+
+      &amp;amp;:hover {
+        background-color: #7f8c8d;
+      }
+    &lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt;
+    props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+    css&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+      background-color: transparent;
+      color: #3498db;
+      border: 1px solid #3498db;
+      &amp;amp;:hover {
+        background-color: #3498db;
+        color: white;
+      }
+    &lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; variant &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; ButtonProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StyledButton&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;variant&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;variant&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StyledButton&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;state&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#state&quot; aria-label=&quot;state permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;State&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;컴포넌트에 필요한 &lt;code class=&quot;language-text&quot;&gt;state(상태)&lt;/code&gt;를 적용하는것은 &lt;code class=&quot;language-text&quot;&gt;props&lt;/code&gt;를 더 만들어서 받아 주게 됩니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;tailwind-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tailwind-2&quot; aria-label=&quot;tailwind 2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Tailwind&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; variant&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; disabled &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt;
+      &lt;span class=&quot;token attr-name&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+				font-bold py-2 px-4 rounded
+				&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;
+          variant &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;outline&quot;&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;bg-transparent border border-blue-500 text-blue-500&quot;&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;bg-blue-500 text-white&quot;&lt;/span&gt;
+        &lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
+			&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token attr-name&quot;&gt;disabled&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;disabled&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[React 컴포넌트 Cheet-Sheet]]></title><description><![CDATA[https://react.dev/learn 으로 부터 확보한 cheet book Displaying data Conditional rendering Other works or Rendering List or Responding to events…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/note/ReactCheet/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/note/ReactCheet/</guid><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;https://react.dev/learn&quot;&gt;https://react.dev/learn&lt;/a&gt; 으로 부터 확보한 cheet book&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&quot;displaying-data&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#displaying-data&quot; aria-label=&quot;displaying data permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg&gt;&lt;/svg&gt;&lt;/a&gt;Displaying data&lt;/h1&gt;
